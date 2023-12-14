@@ -1,0 +1,25 @@
+body{
+    width: 500px;
+    background-color: #32485f;
+    color : #fff;
+}
+
+input[type=checkbox]:checked + label.ms-2 {
+    text-decoration: line-through;
+}
+
+.remove-to-do {
+    position : absolute;
+    top : 30%;
+    right : 5%;
+}
+
+.update-to-do {
+    position : absolute;
+    top : 30%;
+    right : 10%;
+}
+
+a {
+    text-decoration: none;
+}
